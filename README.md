@@ -1,3 +1,7 @@
+# Deprecation Warning
+The `symopsio/secretsmgr-addon/sym` module is deprecated as of September 30, 2022. Please migrate to [`symopsio/secretsmgr-addon/aws`](https://registry.terraform.io/modules/symopsio/secretsmgr-addon/aws/latest). This should be done automatically if you are have migrated to the `symopsio/runtime-connector/aws` module.
+
+
 # secretsmgr-addon
 
 The `secretsmgr-addon` module adds AWS Secrets Manager access to a Sym runtime connector module.
